@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFDCC1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="391dp"
+        android:layout_height="58dp"
+        android:autofillHints="name"
+        android:hint="@string/text1"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="389dp"
+        android:layout_height="57dp"
+        android:autofillHints="name"
+        android:hint="@string/text2"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/compareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/boton"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:paddingTop="16dp"
+        android:text="@string/result"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+</LinearLayout>
